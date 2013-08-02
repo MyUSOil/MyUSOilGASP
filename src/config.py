@@ -33,13 +33,13 @@ __author__ = 'pete.frisella@gmail.com (Pete Frisella)'
 
 # OAuth 2.0 Client Settings
 AUTH_CONFIG = {
-    'OAUTH_CLIENT_ID': 'REPLACE THIS WITH YOUR CLIENT ID',
-    'OAUTH_CLIENT_SECRET': 'REPLACE THIS WITH YOUR CLIENT SECRET',
+    'OAUTH_CLIENT_ID': '978107580961-koqct1ai3o6bvho1geehh81rb7qc067i.apps.googleusercontent.com',
+    'OAUTH_CLIENT_SECRET': 'ge52nXb1c7hcbhb00sS00bx_',
 
     # E.g. Local Dev Env on port 8080: http://localhost:8080
     # E.g. Hosted on App Engine: https://your-application-id.appsot.com
     'OAUTH_REDIRECT_URI': '%s%s' % (
-        'https://REPLACE_THIS_WITH_YOUR_APPLICATION_NAME.appsot.com OR http://localhost:8080',
+        'https://MyUsoilGAProxy.appspot.com/admin/auth',
         '/admin/auth')
 }
 
